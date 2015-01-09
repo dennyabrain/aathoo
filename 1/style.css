@@ -1,6 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Rajdhani:500,700&subset=latin,latin-ext);
+
+body{
+	font-family: 'Rajdhani', sans-serif;
+	/*background-color:#E4DDBD;*/
+	background-color:#C5C9CF;
+}
+
+*
+{
+    margin:0;
+    padding:0;
+}
+
 #container{
 	margin:auto;
 	max-width:800px;
+	background-color:#ffffff;
+	padding:5%;
+	margin-top:1%;
+	margin-bottom:1%;
 }
 
 #title{
@@ -11,11 +29,11 @@
 float:right;
 width:20%;
 font-size:1.0em;
-padding:0 2% 2% 2%;
+padding:1% 2% 2% 2%;
 }
 
 #content{
-width:80%;
+width:70%;
 padding:1%;
 }
 
@@ -26,9 +44,14 @@ font-size:1.0em;
 padding:0 2% 2% 2%;
 }
 
+#comment{
+margin-top:5%;
+}
+
 #footer{
-	padding: 1%;
-	text-align:center;
+padding: 1%;
+text-align:center;
+margin-top:5%;
 }
 
 img{
